@@ -1,0 +1,14 @@
+{
+  "name": "spotifyproxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "amir tutunchi",
+  "license": "ISC",
+  "dependencies": {
+    "proxy-chain": "^1.0.0"
+  }
+}
