@@ -1,6 +1,6 @@
 const ProxyChain = require('proxy-chain');
 const server = new ProxyChain.Server({
-    port: 80,
+    port: 443,
     verbose: false,
     prepareRequestFunction: ({ request, username, password, hostname, port, isHttp }) => {
         return {
@@ -10,5 +10,5 @@ const server = new ProxyChain.Server({
 });
 
 server.listen(() => {
-    console.log(`Proxy server is listening on port ${80}`);
+    console.log(`Proxy server is listening on port ${443}`);
 });
